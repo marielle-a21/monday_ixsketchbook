@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #1695A3;
+    color: #FFFFFF;
+}
+
+p {
+    color: #EB7F00;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    color: #FFFFFF;
+}
