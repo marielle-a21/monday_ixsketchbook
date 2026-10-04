@@ -59,6 +59,10 @@
 For the CSS, I focused on keeping the layout simple and organized so that the main elements were easy to understand and navigate. I think the biggest improvement is that the page now feels more personal and connected to my original concept. However, I still feel like the design could be more unique, and I may experiment with different visual elements as the project grows. The growing navigation may also require me to rethink the spacing and layout. Looking ahead, I expect some of my existing pages may need redesigning to keep everything visually consistent as I add more content and pages to my Interactive Sketchbook.</p>
 <br>
 <hr>
-<p></p>
+<p>10/03/2026 When I first opened my published interactive sketchbook, I noticed that some of my newly added pages showed a 404 error, while pages that had been there longer loaded normally. The navigation worked correctly, my CSS appeared normally, and the homepage loaded well, including the GIF I had added. The biggest difference was that the new pages worked when I tested them in Visual Studio Code but gave me 404 errors after the site was published.
+
+While troubleshooting, I discovered that I had accidentally left ../ in the navigation links from the homepage/parent file. This caused the links to point to the wrong location. I removed the ../ and then waited for the website to update after making the change in Visual Studio Code. After waiting and testing the site again, the pages worked.
+
+There is still one problem I have not figured out. When I click the “CSS Basics” navigation button while already on the CSS Basics page, it gives me a 404 error. I think this may be because I have two pages that are both named index.html, causing the code to confuse which page I mean. Publishing the site helped me understand how important my file and folder structure is, especially when using relative paths and naming files.</p>
   </body>
 </html>
