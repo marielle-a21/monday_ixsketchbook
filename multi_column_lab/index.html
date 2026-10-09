@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	 <nav>
+      <a href="../index.html">home</a>
+      <a href="../3_about me/3_about me.html">about me</a>
+      <a href="../2_inspo/2_inspo.html">inspiration</a>
+      <a href="../1_hierarchy/1_hierarchy.html">hierarchy</a>
+      <a href="../4_css basics/index.html">css practice</a>
+      <a href="../box_model/box_model.html">box model</a>
+      <a href="../mid_century_modern_blog/index.html">mid century modern blog</a>
+      <a href="../checkpoint_one/checkpoint_one.html">checkpoint one</a>
+      <a href="../multi_column_lab/index.html" >multi column lab</a>
+    </nav>
+	
+	<title>Multi Column Layout Lab</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+		<header>
+		  <h1>Fleetwood Mac -- Dont Stop</h1>
+		</header>
+			
+			<div class="flex-container">
+			
+				<div class="left-column">
+			 
+		<h2>Lyrics</h2>
+		<br>
+			  <p>If you wake up and don't want to smile<br>
+					If it takes just a little while<br>
+					Open your eyes and look at the day<br>
+					You'll see things in a different way<br>
+					<br>
+					Don't stop thinking about tomorrow<br>
+					Don't stop, it'll soon be here<br>
+					It'll be better than before<br>
+					Yesterday's gone, yesterday's gone<br>
+					<br>
+					Why not think about times to come<br>
+					And not about the things that you've done<br>
+					If your life was bad to you<br>
+					Just think what tomorrow will do<br><br>
+					Don't stop thinking about tomorrow<br>
+					Don't stop, it'll soon be here<br>
+					It'll be better than before<br>
+					Yesterday's gone, yesterday's gone<br><br>
+					All I want is to see you smile<br>
+					If it takes just a little while<br>
+					I know you don't believe that it's true<br>
+					I never meant any harm to you<br><br>
+					Don't stop thinking about tomorrow<br>
+					Don't stop, it'll soon be here<br>
+					It'll be better than before<br>
+					Yesterday's gone, yesterday's gone<br><br>
+					Don't stop thinking about tomorrow<br>
+					Don't stop, it'll soon be here<br>
+					It'll be better than before<br>
+					Yesterday's gone, yesterday's gone<br><br>
+					don't you look back<br>
+					(Ooh) don't you look back<br>
+					(Ooh) don't you look back<br>
+					(Ooh) don't you look back<br>
+			  </p>
+			</div>
+
+			<div class="right-column">
+		
+			  <h2>Album Info</h2><br>
+			<img src="img/rumours.jpg" alt="Rumours Album Cover">
+			  <p id="info">Rumours is the eleventh studio album by<br> British-American rock band Fleetwood Mac<br>but only the second with Buckingham & Nicks</p>
+			  <ul>
+			  	<li><strong>Album:</strong> Rumours</li>
+			  	<li><strong>Release Date:</strong> February 4, 1977</li>
+			  </ul>
+			 </div>
+			 </div>
+		
+		<footer>
+		  <h2>lyrics and music by Christine McVie</h2>
+		</footer>
+		<br>
+		<hr>
+I learned how to use flexbox to organize the layout of a webpage. I decided to make the main part of the page the flex container because it included the headers, lyrics, and photo. I chose these because they were the elements I needed to organize into a column. The flex items are the paragraph elements containing the lyrics and the album information.
+
+Before I applied display: flex, the lyrics and album information were stacked on top of each other. After applying display: flex, they were arranged into columns, creating a more organized two-column layout. Changing the widths helped control how much space each column took up, while adjusting the margins and padding helped create spacing between the elements and made the page look cleaner.
+
+One challenge I had to troubleshoot was getting the font to work correctly. I was unsure how to connect the font file, so I experimented with using ../ in the file path to navigate out of one folder and into another where the font was stored. This helped me better understand how file paths work. I also realized this was something we learned in past html and css lessons that I could apply to this project.
+</body>
+</html>
