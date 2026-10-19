@@ -63,7 +63,7 @@ nav.flex-container {
 	display: flex;
 	align-items: center;
 	margin-right: 2%;
-	width: 550px;
+	width: 600px;
 	justify-content: space-between;
 /* 5. the nav has child elements right? so therefor the nav can also be a flex-container as well. Lets do that now. */
 
