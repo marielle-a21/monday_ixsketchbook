@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>positioning elements</title>
+    <link rel="stylesheet" href="https://use.typekit.net/azk2aca.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+ <nav class="centered-nav">
+      <a href="index.html">home</a>
+      <a href="3_about me/3_about me.html">about me</a>
+      <a href="2_inspo/2_inspo.html">inspiration</a>
+      <a href="1_hierarchy/1_hierarchy.html">hierarchy</a>
+      <a href="4_css basics/index.html">css practice</a>
+      <a href="box_model/box_model.html">box model</a>
+      <a href="mid_century_modern_blog/index.html">mid century modern blog</a>
+      <a href="checkpoint_one/checkpoint_one.html">checkpoint one</a>
+      <a href="multi_column_lab/index.html">multi column lab</a>
+      <a href="flexboxIRL/index.html">flexbox IRL</a>
+      <a href="positioningLab/index.html">positioning lab</a>
+    </nav>
+    
+  <header>
+  	<h1>positioning elements</h1>
+  </header>
+  <section>
+    <h3>Static</h3><p>default, as-is behavior</p>
+    <h3>Relative</h3><p>this positions a child relative to its parent. by giving an element a relative position, we can place it outside the normal flow of where it would be- but it still impacts other elements</p>
+    <h3>Absolute</h3><p>this takes the element out of the line up and no longer impacts elements around it, BUT you have to apply position:relative to a parent container
+      </p>
+    <h3>Fixed</h3><p>positioned in relation to the browser window, it just stays put!</p>
+    <h3>***Sticky***</h3><p>this one is a little more advanced, and we won’t get into it yet, but perhaps challenge yourself and your project to see if you can figure it out?</p><br>
+    <h3>Next up: z-index</h3><p>this is how we control layering when we are using positioning. if an element has a position, you can add a z-index, the larger the number the closer to the top.<br>
+    0=bottom 100=top<br>
+    think of z-index like the “bring to front” or “send to back” in design software.</p>
+    <br>
+    <p>for more information <a href="https://docs.google.com/presentation/d/1l5xqA2J6o3fNxPjc018LBTOWBgWTk6ssM02cNlLk4TU/edit?usp=sharing" target="_blank">click here</a></p>
+  </section>
+
+	<div class="overlay-wrapper">
+	  <img src="img/knollflower.gif" alt="knoll flower" />
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+	</div>
+
+
+  <footer>
+    <a href="#">footer nav</a>
+    <h3>fix the footer to the bottom</h3>
+ 
+  </footer>
+  <br>
+  <hr>
+  <p> I think fixed positioning is the easiest to understand as it stays in the same place the whole time. Relative positioning is when the element stays in the same flow as the rest of the document. Absolute positioning breaks that flow and does it's own thing. When I fixed the footer, it made it so it stayed in the bottom right corner the whole time, even while scrolling up and down the page. Z-index affected the page by changing the layering of each element. The higher the number, the more on top it is, and the less the number, the more on the bottom it is. I had to troubleshoot and experiment with which elements should be relative and absolute. I think using the sticky positioning on a navigation bar might be useful on my interactive sketchbook. I think I will try that out.  I think positioning can become a problem if overused when the designer decides to add to many fixed elements, making the page harder to read or creating more distraction while trying to view the page in its entirety. I think also using the z-index to layer too many things could also create a hard to read page.</p>
+</body>
+</html>
