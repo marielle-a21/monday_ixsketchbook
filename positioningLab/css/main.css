@@ -103,8 +103,8 @@ img {
   height: 300px;
   border-radius: 100%;
   position: relative;
-  top: -400px;
-  left: -60%;
+  top: -500px;
+  left: 200%;
   z-index: -1;
 
   /* in order to draw  circle in css, creat a span and call it dot in html. then you must use the height/width border-radius and display in css */
