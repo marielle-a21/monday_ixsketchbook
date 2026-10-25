@@ -126,6 +126,12 @@ text-align: right;
 /* let's push the text to the right */
 }
 
+.centered-nav {
+  text-align: center;
+  font-size: 9px;
+  margin-top: 20px;
+}
+
 
 /* ------------ custom styles ------------ */
 
