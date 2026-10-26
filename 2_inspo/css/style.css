@@ -14,10 +14,10 @@ go ahead and play with these, can you get the colors to change? What do you noti
 body {
 
     color: #33282F;
-    background-color: #ffcaed
+    background-color: #e2a2b8
     ;
-    border: 10px groove #ffffff; 
-    font-family: 'Helvetica', Arial, sans-serif;
+    border: 10px dotted #ffffff;
+    font-family: 'DM Sans', Arial, sans-serif;
 }
 
 section.flex-container {
@@ -47,4 +47,11 @@ h2 {
     font-size: 48px;
     align-self: center;
     letter-spacing: .0125em;
+    font-family: 'DM Sans', Arial, sans-serif;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    
 }

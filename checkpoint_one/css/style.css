@@ -14,7 +14,9 @@ go ahead and play with these, can you get the colors to change? What do you noti
 body {
 
     color: #141411;
-    background-color: #F2F0D8;
+    background-color: #efeeff;
+    font-family: 'DM Sans';
+    border: 10px dotted white; 
 }
 img {
     width: 100%;
@@ -22,7 +24,7 @@ img {
 
 section.flex-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 20px;
     gap: 20px;
 }

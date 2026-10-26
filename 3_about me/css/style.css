@@ -15,8 +15,8 @@ body {
 
     color: #30302B;
     background-color: #eaeaff;
-    border: 10px dashed #ffffff;
-    font-family: 'Monaco', Arial, sans-serif;
+    border: 10px dotted #ffffff;
+    font-family: 'DM Sans', Arial, sans-serif;
 }
 
 iframe {
@@ -26,4 +26,10 @@ iframe {
     padding: 20px;
     width: 853px;
     height: 480px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+      
 }
