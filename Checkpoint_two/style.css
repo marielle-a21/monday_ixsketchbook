@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Css is how we add all things style, below there are two simple styles added
+go ahead and play with these, can you get the colors to change? What do you notice?
+ */
+
+body {
+
+    color: #141411;
+    background-color: #ffeefa;
+    font-family: 'DM Sans';
+    border: 10px dotted white; 
+}
+img {
+    width: 100%;
+}
+
+section.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 20px;
+}
