@@ -18,3 +18,17 @@ body {
     border: 10px dotted #ffffff;
     font-family: 'DM Sans', Arial, sans-serif;
 }
+
+.star {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    top: 5%;
+    right: 2%;
+    transition-duration: 2s;
+    }
+
+    .star:hover {
+    transform: scale(1.5) rotate(360deg);
+    transition-duration: 2s;
+    }
