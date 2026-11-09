@@ -61,3 +61,41 @@ img {
   transform: scale(1.5) rotate(360deg);
   transition-duration: 2s;
 }
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .centered-nav {
+    font-size: 18px;
+  }
+
+  .star {
+    width: 8%;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    border-width: 6px;
+  }
+
+  centered-nav {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .star {
+    width: 12%;
+  }
+  h1 {
+    font-size: 24px;
+  }
+}
