@@ -12,12 +12,19 @@ for now, you can leave these alone */
 go ahead and play with these, can you get the colors to change? What do you notice?
  */
 
+ html, body {
+  width: 100%;
+  min-height: 100%;
+ }
+
 body {
 
     color: #252E32;
     background-color: #bdeafc;
     border: 10px dotted #ffffff;
     font-family: 'DM Sans', Arial, sans-serif;
+    min-height: 100vh;
+    width: 100%;
 }
 
 img {
