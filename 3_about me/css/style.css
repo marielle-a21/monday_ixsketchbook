@@ -16,7 +16,7 @@ body {
     color: #30302B;
     background-color: #eaeaff;
     border: 10px dotted #ffffff;
-    font-family: 'DM Sans', Arial, sans-serif;
+    font-family: 'DM Sans', Arial, sans-serif;;
 }
 
 iframe {
@@ -26,12 +26,13 @@ iframe {
     padding: 20px;
     width: 853px;
     height: 480px;
+    align-items: center;
 }
 
 nav {
     position: sticky;
     top: 0;
-      
+    text-decoration: none;
 }
 
 .star {
@@ -46,4 +47,9 @@ nav {
 .star:hover {
   transform: scale(1.5) rotate(360deg);
   transition-duration: 2s;
+}
+
+article {
+    align-self: center;
+    margin: 50px;
 }
